@@ -24,7 +24,7 @@ Sample Output 2:
 a = int(input())
 b = int(input())
 c = int(input())
-print(list(reversed(sorted([a,b,c])))[0])
+print(list(reversed(sorted([a,b,c])))[0]) #сортируем, разворачиваем и берем первый элемент;
 print(list(reversed(sorted([a,b,c])))[2])
 print(list(reversed(sorted([a,b,c])))[1])
 
