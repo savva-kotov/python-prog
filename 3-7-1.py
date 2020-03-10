@@ -59,13 +59,7 @@ for i in range(inp):
         res[a[0]][4] += 1#увеличиваем очки
         res[a[2]][4] += 1
 
-s = ''#вывод формата Зенит:1 1 0 0 3
-for i in res:
-    s += i
-    s += ':'
-    for i in res[i]:
-        s += str(i)
-        s += ' '
-    s = s[:-1]
-    print(s)
-    s = ''
+
+
+for i in res.items():
+    print(i[0] + ':' + ' '.join(map(str, i[1])))
